@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/categories_recycler_view"
+                android:background="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pe_school_label"
+                android:text="@string/pe_activities"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/classes_recycler_view"
+                android:background="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fitness_label"
+                android:text="@string/workout"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fitness_recycler_view"
+                android:background="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sports_label"
+                android:text="@string/sports"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@color/colorPrimary"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sports_recycler_view"
+                android:background="@android:color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/movies_image"
+                android:src="@drawable/movies"
+                android:scaleType="fitXY"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:id="@+id/take_test"
+                android:src="@drawable/take_test"
+                android:scaleType="fitXY"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

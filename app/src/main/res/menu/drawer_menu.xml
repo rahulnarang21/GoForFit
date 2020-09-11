@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/side_nav_home"
+            android:title="@string/home"
+            android:checkable="false" />
+
+        <item
+            android:id="@+id/side_nav_pe_activities"
+            android:title="@string/pe_activities"
+            android:checkable="false"
+            />
+
+        <item
+            android:id="@+id/side_nav_fitness"
+            android:title="@string/workout"
+            android:checkable="false"
+            />
+
+        <item
+            android:id="@+id/side_nav_sports"
+            android:title="@string/sports"
+            android:checkable="false"
+            />
+
+        <item
+            android:id="@+id/side_nav_movies"
+            android:title="@string/movies"
+            android:checkable="false"
+            />
+
+        <item
+            android:id="@+id/side_nav_take_test"
+            android:title="@string/take_test"
+            android:checkable="false"
+            />
+
+<!--            <item-->
+<!--                android:id="@+id/side_nav_social_media"-->
+<!--                android:title="@string/media"-->
+<!--                android:checkable="false" />-->
+
+<!--            <item-->
+<!--                android:id="@+id/side_nav_fitindia_school"-->
+<!--                android:title="@string/fit_india_school"-->
+<!--                android:checkable="false"/>-->
+
+<!--            <item-->
+<!--                android:id="@+id/side_nav_your_story"-->
+<!--                android:title="@string/your_story"-->
+<!--                android:checkable="false"/>-->
+<!--            <item-->
+<!--                android:id="@+id/side_nav_become_partner"-->
+<!--                android:title="@string/become_partner"-->
+<!--                android:checkable="false"/>-->
+
+            <item
+                android:id="@+id/side_nav_logout"
+                android:title="@string/logout"
+                android:checkable="false"/>
+
+
+
+    </group>
+
+</menu>
